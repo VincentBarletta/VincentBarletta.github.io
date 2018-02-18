@@ -5,8 +5,18 @@
     </head>
     <body> 
         <h1>RainyJazz</h1>
-        <audio autoplay loop>
+        <audio autoplay loop id = "myAudio">
 <source src="jmix.mp3" type="audio/ogg">
      </audio>
+     <br><br>
+    <button onclick="setHalfVolume()" type="button" id="button1">-</button>
+    <button onclick="setFullVolume()" type="button" id="button2">+</button>
+    <br>
+    <script type="text/javascript">
+   var aud = document.getElementById("myAudio");
+   function setHalfVolume() { aud.volume -= 0.2; }  
+   function setFullVolume() { aud.volume += 0.2; }
+  // 
+  </script>
     </body>
 </html>
