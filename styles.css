@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    background-image: url("rainfall.gif");
+    background-repeat: no-repeat;
+    background-size:100%;
+    color:   #dcccff;
+    font-family: 'Lobster Two', cursive;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30em; 
+}
