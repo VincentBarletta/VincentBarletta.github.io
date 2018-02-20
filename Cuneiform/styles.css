@@ -1,0 +1,13 @@
+img {
+    width: 200px;
+}
+body {
+    text-align: center;
+    font-family: "WingDings";
+    background-color:  #e6ac00;
+    background-image: url("senna.jpg");
+        letter-spacing: 4px;
+    bottom: 0px;
+    position: fixed;
+;
+}

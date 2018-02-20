@@ -1,0 +1,10 @@
+#easy {
+    width: 400;
+    height: 300;
+    border-radius: 1px;
+    border-color: black;
+    background-color: red;
+    background-image: url("hioh.jpg");
+    font-size: 50px;
+     color: white;
+}
